@@ -7,7 +7,11 @@ $real-light-blue: #F2F9FF;
 
 @font-face {
   font-family: 'Circular Book';
-  src: url('/assets/fonts/CircularStd-Book.otf');
+  src: url('CircularStd-Book.otf');
+}
+
+body {
+  font-family: 'Circular Book', sans-serif;
 }
 
 
