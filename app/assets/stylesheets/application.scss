@@ -1,0 +1,90 @@
+@import "bootstrap";
+
+$dark-blue: #00386C;
+$blue: #255481;
+$light-blue: #C7E4FF;
+$real-light-blue: #F2F9FF;
+
+@font-face {
+  font-family: 'Circular Book';
+  src: url('/assets/fonts/CircularStd-Book.otf');
+}
+
+
+.demo-label {
+  margin-bottom: 32px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0;
+  color: $dark-blue;
+}
+
+.demo-input {
+  display: block;
+  width: 100%;
+  padding: 4px 0;
+  border: none;
+  border-bottom: 1px solid $blue;
+  background: none;
+  color: inherit;
+  font-size: 24px;
+  line-height: 27px;
+  outline: none;
+}
+
+.form-sumbit {
+  margin-top: 32px;
+  color: $dark-blue;
+  border: 1px solid $dark-blue;
+  padding: 16px 64px;
+  border-radius: 50px;
+  transition: all 200ms;
+  cursor: pointer;
+  text-align: center;
+  background: none;
+}
+
+form {
+  margin-top: 20px;
+}
+
+.sample-signup-form {
+  padding: 32px;
+  border: 1px solid $light-blue;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.04);
+  background: $real-light-blue;
+}
+
+.signup-form-title {
+  padding-bottom: 32px;
+  margin-bottom: 32px;
+  border-bottom: 1px solid #C7E4FF;
+  color: #00386C;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.form-label {
+  margin-bottom: 16px !important;
+  color: #00386C;
+  font-size: 16px;
+  font-weight: 400 !important;
+  line-height: 25px;
+  letter-spacing: 0;
+}
+
+.form-input {
+  width: 100%;
+  padding: 4px 8px;
+  margin-bottom: 32px;
+  border: 1px solid $light-blue !important;
+  border-radius: 5px;
+  color: inherit;
+  overflow: visible;
+}
